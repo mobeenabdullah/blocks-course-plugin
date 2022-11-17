@@ -1,1 +1,1 @@
-# blocks-course-plugin
+# Blocks Course Plugin
