@@ -18,7 +18,6 @@ function blocks_course_plugin_enqueue_assets() {
 
     wp_enqueue_script( 'blocks-course-plugin-script', plugins_url('build/index.js', __FILE__), $asset_file['dependencies'], $asset_file['version']);
     
-    wp_enqueue_style( 'blocks-course-plugin-style', plugins_url('build/index.css', __FILE__) );
 }
 
 add_action( 'enqueue_block_editor_assets', 'blocks_course_plugin_enqueue_assets' );
